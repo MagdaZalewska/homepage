@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.header__welcome {
+  color: rgb(114, 12, 114);
+}
+
+.body {
+  background-color: rgb(245, 219, 245);
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 900px;
+  font-style: italic;
+}
+
+.header__title {
+  padding: 20px 100px 40px 40px;
+    text-align: right;
+    color:rgb(114, 12, 114);
+    font-style: italic;
+}
+
+.img {
+  display: block;
+  box-shadow: 2px 2px 8px rgb(245, 219, 245);
+  margin: 20px auto;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  outline-offset: 15px;
+  box-shadow: 2px 2px 8px rgb(135 135 119), inset 16px -15px 33px -5px rgb(245, 219, 245);
+  background-color: rgb(245, 219, 245);
+}
+
+.buttonImage {
+  display: block;
+  padding: 10px;
+  margin: 20px auto 15px;
+  border-radius: 10px;
+  background-color: rgb(245, 219, 245);
+  box-shadow: 2px 2px 8px rgb(135 135 119), inset 16px -15px 33px -5px rgb(245, 219, 245);
+  border: none;
+}
+
+.section__subHeader {
+  color: rgb(114, 12, 114);
+    background-color: rgb(245, 219, 245);
+    box-shadow: 2px 2px 8px rgb(135, 135, 119);
+    margin-top: 0px;
+}
+   .visibility {
+    visibility: hidden;
+   }
+
+   .button{
+    border: 1px solid rgb(245, 219, 245);;
+    border-radius: 5px;
+  }
+
+  .imageHide {
+    display: none;
+  }
+
+
+  

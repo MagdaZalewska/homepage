@@ -1,0 +1,24 @@
+
+.footer__subHeader {
+  color: rgb(114, 12, 114);
+    background-color: rgb(245, 219, 245);
+    box-shadow: 2px 2px 8px rgb(135, 135, 119);
+    margin-top: 0px;
+}
+
+.footer__container {
+    display: inline-flexbox;
+  }
+
+  .flex__first {
+    border: 5px solid;
+    height: 50px;
+  }
+
+  .flex__first--hobby {
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 50px;
+  }
+
+  

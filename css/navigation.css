@@ -1,0 +1,36 @@
+.navigation__list {
+    border-bottom: 3px solid rgb(114, 12, 114);
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 100%;
+  }
+
+
+  .navigation__link {
+    padding: 0 20px;
+    font-weight: 700;
+    color: rgb(114, 12, 114);
+    background-color: rgb(245, 219, 245);
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 850;
+    text-decoration: none;
+  }
+  
+   .navigation__item {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 850;
+    list-style-type: none;
+    outline: rgb(114, 12, 114);
+    background-color: rgb(245, 219, 245);
+    box-shadow: 2px 2px 8px rgb(135, 135, 119);
+  }
+  
