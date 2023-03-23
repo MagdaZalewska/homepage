@@ -7,8 +7,8 @@ let captionChange = document.querySelector(".js-captionChange");
 buttonImage.addEventListener("click", () => {
   image.classList.toggle("imageHide");
   if (image.classList.contains("imageHide")) {
-    captionChange.innerText = "Pokaż";
+    captionChange.innerText = "Show";
   } else {
-    captionChange.innerText = "Ukryj";
+    captionChange.innerText = "Hide";
   }
 });
